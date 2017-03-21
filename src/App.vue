@@ -1,14 +1,6 @@
 <template>
-  <h1>Server Status: {{ status }}</h1>
-  <hr>
+  <app-server-status></app-server-status>
 </template>
 
-<script>
-  export default {
-    data: function() {
-      return {
-        status: 'Critical'
-      }
-    } 
-  }
+<script>  
 </script>
