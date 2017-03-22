@@ -20,3 +20,9 @@
         }
     }
 </script>
+
+<style scoped>
+    p {
+        border: 1px solid green;
+    }
+</style>
