@@ -19,6 +19,7 @@
             },
             resetName() {
                 this.name = 'Aurimas';
+                this.$emit('nameWasReset', this.name);
             }
         }
     }
