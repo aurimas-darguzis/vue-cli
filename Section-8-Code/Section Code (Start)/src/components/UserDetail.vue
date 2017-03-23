@@ -9,7 +9,8 @@
 <script>
     export default {
         props: {
-            name: String
+            name: String,
+            default: 'Aurimas :'
         },
         methods: {
             switchName() {
