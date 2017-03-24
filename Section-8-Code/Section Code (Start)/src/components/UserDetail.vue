@@ -10,9 +10,11 @@
 <script>
     export default {
         props: {
-            name: String,
-            default: 'Aurimas :'
-        },
+            name: {
+                type: String
+            },
+        restFn: Function
+    },
         methods: {
             switchName() {
                 return this.name.split("").reverse().join("");
